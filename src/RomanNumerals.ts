@@ -77,35 +77,4 @@ export default class RomanNumerals {
 
     return result.toString();
   }
-
-  // static romanToArabicMap(input: string): string {
-  //   const romanNumMap: Map<string, number> = new Map<string, number>([
-  //     ['CM', 900],
-  //     ['M', 1000],
-  //     ['CD', 400],
-  //     ['D', 500],
-  //     ['XC', 90],
-  //     ['C', 100],
-  //     ['XL', 40],
-  //     ['L', 50],
-  //     ['IX', 9],
-  //     ['X', 10],
-  //     ['IV', 4],
-  //     ['V', 5],
-  //     ['I', 1],
-  //   ]);
-  //
-  //   input = input.toUpperCase();
-  //   let index = 0, sum = 0;
-  //
-  //   romanNumMap.forEach((value, key) => {
-  //     index = input.indexOf(key);
-  //     while (index !== -1) {
-  //       sum += value;
-  //       input = input.replace(key,'');
-  //       index = input.indexOf(key);
-  //     }
-  //   });
-  //   return sum.toString();
-  // }
 }
