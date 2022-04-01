@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import RomanNumerals from './RomanNumerals';
+import RomanNumerals from './RomanNumerals/RomanNumerals';
 
 const App: React.FC<{}> = () => {
 
